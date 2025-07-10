@@ -1,4 +1,32 @@
-What Makes Nations Happy: A Global Analysis of Happiness and Development 
+What Makes Nations Happy: A Global Analysis of Happiness and Development
+
+
+Project Setup Instructions
+To run this project locally:
+1. Clone the Repository
+git clone https://github.com/oliv-1990/HAPPY.git
+cd HAPPY
+2. CREATE AND ACTIVATE A VIRTUAL ENVIRONMENT
+On Windows (Command Prompt):
+python -m venv venv
+venv\Scripts\activate
+On macOS/Linux:
+python3 -m venv venv
+source venv/bin/activate
+3. INSTALL REQUIRED DEPENDENCIES
+pip install -r requirements.txt
+4. RUN THE JUPYTER NOTEBOOK
+jupyter notebook
+NOTES:
+Make sure you have Python 3.7 or higher installed.
+
+Use relative file paths (e.g., ./data/file.csv) for dataset loading.
+
+To deactivate the virtual environment, run:
+deactivate
+
+
+
 
 This capstone project explores how national happiness relates to key socio-economic development indicators across developed and developing countries from 2005 to 2022. By combining data from the World Happiness Report and the World Bank Development Indicators, the goal is to understand which factors most influence citizens' well-being — and how these patterns vary globally.
 
@@ -97,6 +125,7 @@ Tech Stack
 Project includes:
 ·	requirements.txt for dependencies
 ·	.gitignore to exclude unnecessary files (e.g., .db, .ipynb_checkpoints)
+    README.md
 
 
 
