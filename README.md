@@ -78,9 +78,6 @@ Technologies Used
 Conclusion
 Through this project, I found that while wealth (GDP per capita) plays a role in national happiness, it’s not the sole factor. Countries that invest more in healthcare, education, and access to infrastructure like electricity tend to report higher happiness scores. My analysis showed that smart, people-centered spending has a stronger and more consistent relationship with well-being than economic wealth alone.
 Specifically, GDP per capita, government health expenditure, and access to electricity demonstrated moderate positive correlations with happiness, while education spending showed a weaker but still positive association. This suggests that countries allocating a higher percentage of GDP toward social programs or infrastructure tend to have higher happiness scores. On the other hand, population density was weakly negatively correlated with happiness, and renewable energy use showed a moderate negative correlation—possibly due to economic or infrastructural challenges in implementing renewables. Military spending showed a weak positive correlation, which may reflect broader national security contexts in some cases, though in others, it may divert resources away from social programs.
-It’s important to note that while my findings highlight statistically significant relationships based on correlation coefficients and p-values, they do not prove causation. The analysis reveals the strength and direction of associations between happiness and development indicators, not direct cause-and-effect relationships. Nevertheless, these patterns offer valuable insights into which areas of development tend to align with greater national well-being.
-
-
 
 
 
