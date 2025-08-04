@@ -27,13 +27,17 @@ deactivate
 Overview
 This capstone project explores how national happiness relates to key socio-economic development indicators across developed and developing countries from 2005 to 2022. By combining data from the World Happiness Report and the World Bank Development Indicators, the goal is to understand which factors most correlate citizens' well-being — and how these patterns vary globally.
 Objective
+
 Research Question: Which development indicators are most strongly associated with national happiness across a diverse global sample of countries?
+
 While many governments use GDP as a primary signal of national well-being, this project investigates how other factors — such as education, healthcare, military spending, and other indicators — have a positive or negative relationship with happiness. By expanding the scope beyond traditional economic measures, this analysis aims to provide insights that may help inform more holistic and inclusive policy decisions focused on human well-being, especially in both urban and rural contexts.
+
 
 Key Columns Used for Merging
 To combine the datasets from the World Happiness Report and the World Bank Development Indicators, two key columns were used:
 - 'country': Identifies the country or geographic region; present in both datasets
 - 'year': The calendar year of the data; used to align corresponding records across time
+
 
 Selected Features
 This project combines key variables from the World Happiness Report and the World Bank Development Indicators. These were selected based on relevance to well-being, policy relevance, and data availability from 2005–2022.
@@ -64,6 +68,7 @@ To assess the quality and success of my analysis, I followed a multi-step evalua
 ·   I prioritized interpretability and clarity, ensuring the results are accessible to both technical and non-technical audiences.
 ·   I have continuously sought feedback from peers and mentors to validate insights and refine my approach.
 Tech Stack
+
 Technologies Used
 •   Python – This is my main programming language used for all data processing, analysis, and modeling tasks.
 •   Pandas – I used to load, clean, merge, and manipulate datasets. I merged our two datasets, the Happiness and Developmental Indicators. I renamed a few important columns to adjust the names across my two datasets before merging, such as 'Year' and 'country'. Also, I created a few columns and changed data types across columns to make the merge more successful. I removed some columns that had a lot of missing data or, in my opinion, did not fit into my research plan, such as 'land area', 'forest land', 'death rate', 'rural population', etc. I also performed the fillna function across some columns to make my merge easier.
@@ -75,9 +80,15 @@ Technologies Used
 •   VS Code – Used for coding environment for writing Python scripts, managing version control, and organizing the project files.
 •   Git & GitHub – Used for version control and collaboration, allowing project updates and backup throughout development.
 •   venv – Used to create a virtual environment ensuring that dependencies are isolated and reproducible across systems.
+
 Conclusion
 Through this project, I found that while wealth (GDP per capita) plays a role in national happiness, it’s not the sole factor. Countries that invest more in healthcare, education, and access to infrastructure like electricity tend to report higher happiness scores. My analysis showed that smart, people-centered spending has a stronger and more consistent relationship with well-being than economic wealth alone.
+
 Specifically, GDP per capita, government health expenditure, and access to electricity demonstrated moderate positive correlations with happiness, while education spending showed a weaker but still positive association. This suggests that countries allocating a higher percentage of GDP toward social programs or infrastructure tend to have higher happiness scores. On the other hand, population density was weakly negatively correlated with happiness, and renewable energy use showed a moderate negative correlation—possibly due to economic or infrastructural challenges in implementing renewables. Military spending showed a weak positive correlation, which may reflect broader national security contexts in some cases, though in others, it may divert resources away from social programs.
+
+It’s important to note that while my findings highlight statistically significant relationships based on correlation coefficients and p-values, they do not prove causation. The analysis reveals the strength and direction of associations between happiness and development indicators, not direct cause-and-effect relationships. Nevertheless, these patterns offer valuable insights into which areas of development tend to align with greater national well-being.
+
+One of the limitations of my project was that I was unable to explore or identify all possible indicators that may correlate with happiness. Due to limited resources, expertise, time constraints, and other circumstances, there were limitations that may have affected the conclusions and results of my capstone.
 
 
 
