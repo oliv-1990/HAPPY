@@ -97,6 +97,7 @@ Technologies Used
 
 •   venv – Used to create a virtual environment ensuring that dependencies are isolated and reproducible across systems.
 
+
 Conclusion
 Through this project, I found that while wealth (GDP per capita) plays a role in national happiness, it’s not the sole factor. Countries that invest more in healthcare, education, and access to infrastructure like electricity tend to report higher happiness scores. My analysis showed that smart, people-centered spending has a stronger and more consistent relationship with well-being than economic wealth alone.
 
