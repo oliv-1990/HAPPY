@@ -97,6 +97,15 @@ Technologies Used
 
 •   venv – Used to create a virtual environment ensuring that dependencies are isolated and reproducible across systems.
 
+•   W3Schools – I used for syntax lookups and general Python rules.
+
+•   PEP documentation and docs.python.org – I used to help me write my code, especially for understanding Python rules and built-in functions.
+
+•   ChatGPT - was used to help me write comments and markdowns to make them more readable, and to check my sentences for grammar and spelling. Also, I used it to  debug my code. It explained rules and syntax—especially when information from resources like PEP documentation or docs.python.org was difficult to understand. 
+
+•   Grammarly and Microsoft editor - I used for checking my comments, markdowns, the text in READE on grammar and spelling.
+
+
 
 Conclusion
 Through this project, I found that while wealth (GDP per capita) plays a role in national happiness, it’s not the sole factor. Countries that invest more in healthcare, education, and access to infrastructure like electricity tend to report higher happiness scores. My analysis showed that smart, people-centered spending has a stronger and more consistent relationship with well-being than economic wealth alone.
