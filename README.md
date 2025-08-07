@@ -35,7 +35,7 @@ deactivate
 
 
 ## Overview:
-This capstone project explores how national happiness relates to key socio-economic development indicators across developed and developing countries from 2005 to 2022. By combining data from the World Happiness Report and the World Bank Development Indicators, the goal is to understand which factors most correlate citizens' well-being — and how these patterns vary globally.
+This capstone project explores how national happiness relates to key socio-economic development indicators across developed and developing countries from 2005 to 2022. By combining data from the World Happiness Report and the World Bank Development Indicators, the goal is to understand which factors most correlate with citizens' well-being — and how these patterns vary globally.
 
 
 **Research Question:** Which development indicators are most strongly associated with national happiness across a diverse global sample of countries?
@@ -100,7 +100,7 @@ Note: The datasets originally included many additional indicators. This subset w
 
 + W3Schools – I used for syntax lookups and general Python rules.
 
-- PEP documentation and docs.python.org – I used to help me write my code, especially for understanding Python rules and built-in functions.
++ PEP documentation and docs.python.org – I used to help me write my code, especially for understanding Python rules and built-in functions.
 
 + ChatGPT - was used to help me write comments and markdowns to make them more readable, and to check my sentences for grammar and spelling. Also, I used it to debug my code. It explained rules and syntax—especially when information from resources like PEP documentation or docs.python.org was difficult to understand. Also used for my Canva presentation.
 
