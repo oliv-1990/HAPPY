@@ -1,6 +1,6 @@
 # What Makes Nations Happy: A Global Analysis of Happiness and Developmental indicators
 ## Objective:
-This project aims to explore the relationship between national happiness and various development indicators such as education, healthcare, GDP, and others. The goal is to determine which factors are most strongly associated with happiness in countries around the world.
+This project aims to explore the relationship between national happiness and various development indicators such as education, healthcare, GDP, and others. The goal is to determine which socio-economic factors are most strongly associated with happiness in countries around the world.
 
 
 ## Project Setup Instructions:
@@ -102,7 +102,7 @@ Note: The datasets originally included many additional indicators. This subset w
 
 - PEP documentation and docs.python.org – I used to help me write my code, especially for understanding Python rules and built-in functions.
 
-+ ChatGPT - was used to help me write comments and markdowns to make them more readable, and to check my sentences for grammar and spelling. Also, I used it to debug my code. It explained rules and syntax—especially when information from resources like PEP documentation or docs.python.org was difficult to understand. 
++ ChatGPT - was used to help me write comments and markdowns to make them more readable, and to check my sentences for grammar and spelling. Also, I used it to debug my code. It explained rules and syntax—especially when information from resources like PEP documentation or docs.python.org was difficult to understand. Also used for my Canva presentation.
 
 + Grammarly and Microsoft editor - I used for checking my comments, markdowns, the text in READE on grammar and spelling.
 
