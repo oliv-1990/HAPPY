@@ -22,9 +22,9 @@ source venv/bin/activate
 pip install -r requirements.txt  
 
 4. RUN THE JUPYTER NOTEBOOK  
-Jupiter notebook  
+Jupyter notebook  
 
-If you do not have Jupiter notebook  
+If you do not have Jupyter notebook  
 pip install notebook  
 
 NOTES:  
@@ -90,7 +90,7 @@ Note: The datasets originally included many additional indicators. This subset w
 
 + SQLite – Used to store the cleaned, merged datasets and run SQL queries efficiently, making data retrieval and analysis faster and more organized. As a result, created merged_sql_df to use it as the main Data Frame in building visuals, performing EDA, and performing correlation analysis.
 
-+ Jupiter Notebooks – Used to write and present my entire project in a clear, interactive, and narrative-driven format.
++ Jupyter Notebooks – Used to write and present my entire project in a clear, interactive, and narrative-driven format.
 
 + VS Code – Used for coding environment for writing Python scripts, managing version control, and organizing the project files.
 
@@ -111,6 +111,8 @@ Note: The datasets originally included many additional indicators. This subset w
 Through this project, I found that while wealth (GDP per capita) plays a role in national happiness, it’s not the sole factor. Countries that invest more in healthcare, education, and access to infrastructure like electricity tend to report higher happiness scores. My analysis showed that smart, people-centered spending has a stronger and more consistent relationship with well-being than economic wealth alone.
 
 Specifically, GDP per capita, government health expenditure, and access to electricity demonstrated moderate positive correlations with happiness, while education spending showed a weaker but still positive association. This suggests that countries allocating a higher percentage of GDP toward social programs or infrastructure tend to have higher happiness scores. On the other hand, population density was weakly negatively correlated with happiness, and renewable energy use showed a moderate negative correlation—possibly due to economic or infrastructural challenges in implementing renewables. Military spending showed a weak positive correlation, which may reflect broader national security contexts in some cases, though in others, it may divert resources away from social programs.
+
+Also, it is very important to mention — not the last, but one of my key findings — at the end of my Jupyter Notebook analysis for the capstone project, I discovered that, using the pearsonr function, there is a weak negative correlation between happiness and population density. Nevertheless, I observed that there is a partial linear relationship between population density and happiness scores in certain cases.For example, countries with high population density, such as the Netherlands and the United Kingdom, still report above-average happiness, challenging the assumption that crowding necessarily diminishes well-being. In contrast, Bangladesh and India show the opposite trend.It is important to mention, according to my findings, India and Bangladesh are developing countries, whereas the Netherlands and the United Kingdom are developed. The mere status gives us clues that otherwise could have been hidden — that developed countries are more likely to have more infrastructure and services available to address challenges related to overcrowding and other indicators that require strong systems of management. Therefore, it is not only about how our indicators correlate with happiness — it is also about how they are managed by the government that determines whether the correlation is positive or negative, and to what degree.
 
 It’s important to note that while my findings highlight statistically significant relationships based on correlation coefficients and p-values, they do not prove causation. The analysis reveals the strength and direction of associations between happiness and development indicators, not direct cause-and-effect relationships. Nevertheless, these patterns offer valuable insights into which areas of development tend to align with greater national well-being.
 
